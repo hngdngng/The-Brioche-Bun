@@ -1,0 +1,32 @@
+{
+  "name": "the-brioche-bun",
+  "version": "1.0.0",
+  "description": "Restaurant app helping users log burgers they'd like to eat and store ones they've devoured.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hngdngng/The-Brioche-Bun.git"
+  },
+  "keywords": [
+    "MVC",
+    "MySQL",
+    "Node",
+    "Express",
+    "Handlebars",
+    "ORM"
+  ],
+  "author": "Hoang Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hngdngng/The-Brioche-Bun/issues"
+  },
+  "homepage": "https://github.com/hngdngng/The-Brioche-Bun#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
