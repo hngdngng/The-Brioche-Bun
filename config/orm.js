@@ -1,14 +1,14 @@
 // Import MySQL connection.
-const connection = require("./connection.js");
+const connection = require("./connection");
 
 const orm = {
-    selectAll: function() {
+    selectAll: function () {
         console.log("selectAll");
     },
-    insertOne: function() {
+    insertOne: function () {
         console.log("insertOne");
     },
-    updateOne: function() {
+    updateOne: function () {
         console.log("updateOne");
     }
 };
