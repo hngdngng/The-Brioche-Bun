@@ -4,7 +4,9 @@ const connection = require("./connection");
 // Helper function for SQL syntax.
 function printQuestionMarks(num) {
     const arr = [];
-    num.forEach(ind => arr.push("?"));
+    for (var i = 0; i<num; i++) {
+        arr.push("?")
+    }
     return arr.toString();
 }
 
