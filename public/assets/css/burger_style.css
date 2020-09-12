@@ -1,0 +1,36 @@
+header h1 {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+}
+
+#about {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+main #feature {
+    margin-bottom: 30px;
+}
+
+main .list-group-item {
+    position: relative;
+}
+
+main .eat-burger {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+}
