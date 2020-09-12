@@ -4,7 +4,8 @@
   "description": "Restaurant app helping users log burgers they'd like to eat and store ones they've devoured.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
